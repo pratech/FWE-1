@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -144,10 +144,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="8.83" y1="2.1" x2="21.85" y2="2.05" width="0" layer="20"/>
-<wire x1="21.85" y1="2.05" x2="21.85" y2="38.35" width="0" layer="20"/>
-<wire x1="21.85" y1="38.35" x2="8.83" y2="38.4" width="0" layer="20"/>
-<wire x1="8.83" y1="38.4" x2="8.83" y2="2.1" width="0" layer="20"/>
+<wire x1="8" y1="36.9741875" x2="8" y2="3.74459375" width="0" layer="20"/>
+<wire x1="8" y1="3.74459375" x2="9.644584375" y2="2.094328125" width="0" layer="20" curve="89.802427"/>
+<wire x1="9.644584375" y1="2.094328125" x2="20.7962875" y2="2.055875" width="0" layer="20"/>
+<wire x1="20.7962875" y1="2.055875" x2="22.5" y2="3.753725" width="0" layer="20" curve="90.211382"/>
+<wire x1="22.5" y1="3.753725" x2="22.5" y2="36.594515625" width="0" layer="20"/>
+<wire x1="22.5" y1="36.594515625" x2="20.744528125" y2="38.356053125" width="0" layer="20" curve="89.802405"/>
+<wire x1="20.744528125" y1="38.356053125" x2="9.425803125" y2="38.395084375" width="0" layer="20"/>
+<wire x1="9.425803125" y1="38.395084375" x2="8" y2="36.9741875" width="0" layer="20" curve="90.193413"/>
+<hole x="10.02" y="36.44" drill="3"/>
+<hole x="20.51" y="36.47" drill="3"/>
+<hole x="9.88" y="4.07" drill="3"/>
+<hole x="20.41" y="4.06" drill="3"/>
+<text x="21.54" y="28.05" size="1.778" layer="22" rot="MR270">care@pinwheel</text>
+<text x="10.56" y="10.35" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 </plain>
 <libraries>
 <library name="buzzer" urn="urn:adsk.eagle:library:113">

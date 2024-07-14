@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -142,10 +142,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="17.78" y1="13.97" x2="28.88" y2="13.97" width="0" layer="20"/>
-<wire x1="28.88" y1="13.97" x2="28.88" y2="43.17" width="0" layer="20"/>
-<wire x1="28.88" y1="43.17" x2="17.78" y2="43.17" width="0" layer="20"/>
-<wire x1="17.78" y1="43.17" x2="17.78" y2="13.97" width="0" layer="20"/>
+<wire x1="14.95735625" y1="41.5157875" x2="14.998034375" y2="14.995496875" width="0" layer="20"/>
+<wire x1="14.998034375" y1="14.995496875" x2="16.28164375" y2="13.714" width="0" layer="20" curve="89.911983"/>
+<wire x1="16.28164375" y1="13.714" x2="28.00465625" y2="13.714" width="0" layer="20"/>
+<wire x1="28.00465625" y1="13.714" x2="30" y2="15.70934375" width="0" layer="20" curve="90"/>
+<wire x1="30" y1="15.70934375" x2="30" y2="41.302534375" width="0" layer="20"/>
+<wire x1="30" y1="41.302534375" x2="28.902534375" y2="42.4" width="0" layer="20" curve="90"/>
+<wire x1="28.902534375" y1="42.4" x2="15.84123125" y2="42.4" width="0" layer="20"/>
+<wire x1="15.84123125" y1="42.4" x2="14.95735625" y2="41.5157875" width="0" layer="20" curve="90.021878"/>
+<hole x="17.018" y="40.386" drill="3"/>
+<hole x="17.018" y="16.002" drill="3"/>
+<hole x="27.94" y="16.002" drill="3"/>
+<hole x="27.94" y="40.513" drill="3"/>
+<text x="17.272" y="17.653" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
+<text x="29.718" y="37.465" size="1.778" layer="22" rot="MR270">care@pinwheel.in</text>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -451,7 +461,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.416" y="22.987" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="22.479" y="35.306" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.035" y="41.529" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="17.653" y="36.449" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="R1" library="adafruit" package="0204/7" value="" x="26.67" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.9654" y="34.29" size="0.9906" layer="25" ratio="12" rot="R270"/>
