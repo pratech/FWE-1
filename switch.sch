@@ -931,7 +931,7 @@ This is the board edge connector for the BBC micro:bit</description>
 </classes>
 <parts>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
-<part name="U$1" library="microbit" deviceset="MICROBIT_PAD" device=""/>
+<part name="U$1" library="microbit" deviceset="MICROBIT_PAD" device="" value="pin1"/>
 <part name="U$2" library="microbit" deviceset="MICROBIT_PAD" device=""/>
 </parts>
 <sheets>
