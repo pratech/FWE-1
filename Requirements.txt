@@ -1,0 +1,19 @@
+Resistor
+Capacitor
+Transistor
+Diode
+Buzzer
+Micro Switch
+Push Button
+Switch
+LED
+LDR
+NOT Gate
+AND Gate
+OR Gate
+Transistor as Switch
+Transistor As Amplifier
+NE555 Timer
+TRaffic Light
+Comparator using Opamp
+DC Motor
