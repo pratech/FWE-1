@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -152,10 +152,10 @@
 <wire x1="22.5" y1="36.594515625" x2="20.744528125" y2="38.356053125" width="0" layer="20" curve="89.802405"/>
 <wire x1="20.744528125" y1="38.356053125" x2="9.425803125" y2="38.395084375" width="0" layer="20"/>
 <wire x1="9.425803125" y1="38.395084375" x2="8" y2="36.9741875" width="0" layer="20" curve="90.193413"/>
-<hole x="10.02" y="36.44" drill="3"/>
-<hole x="20.51" y="36.47" drill="3"/>
-<hole x="9.88" y="4.07" drill="3"/>
-<hole x="20.41" y="4.06" drill="3"/>
+<hole x="10" y="36.5" drill="3"/>
+<hole x="20.5" y="36.5" drill="3"/>
+<hole x="10" y="4" drill="3"/>
+<hole x="20.5" y="4" drill="3"/>
 <text x="21.54" y="28.05" size="1.778" layer="22" rot="MR270">care@pinwheel</text>
 <text x="10.56" y="10.35" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 </plain>
@@ -429,29 +429,27 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="1" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.15" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.34" y="31.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.75" y="32.3" size="1.27" layer="21" rot="R90"/>
+<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.3" y="31.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.71" y="32.3" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.34" y="9.12" smashed="yes">
-<attribute name="NAME" x="11.53" y="4.04" size="1.27" layer="21" rot="R90"/>
+<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.3" y="9.12" smashed="yes">
+<attribute name="NAME" x="11.49" y="5.54" size="1.27" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="SG1" pad="+"/>
 <contactref element="U$1" pad="PAD"/>
-<wire x1="15.5448" y1="34.4424" x2="15.34" y2="34.2376" width="0.1524" layer="16"/>
-<wire x1="15.34" y1="31.28" x2="15.34" y2="34.2376" width="0.1524" layer="16"/>
-<wire x1="15.34" y1="24.13" x2="15.34" y2="31.28" width="2.54" layer="16"/>
+<wire x1="15.34" y1="24.13" x2="15.3" y2="31.28" width="2.54" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="SG1" pad="-"/>
 <contactref element="U$2" pad="PAD"/>
 <wire x1="14.917034375" y1="6.382634375" x2="14.6304" y2="6.096" width="0.1524" layer="16"/>
-<wire x1="14.917034375" y1="6.382634375" x2="15.34" y2="9.12" width="0.1524" layer="16"/>
 <wire x1="15.34" y1="16.51" x2="15.34" y2="9.36" width="2.54" layer="16"/>
 <wire x1="15.34" y1="9.36" x2="15.8" y2="8.9" width="2.54" layer="16"/>
-<wire x1="15.34" y1="9.12" x2="15.8" y2="8.9" width="0" layer="19" extent="16-16"/>
+<wire x1="15.8" y1="8.9" x2="15.3" y2="9.12" width="0" layer="19" extent="16-16"/>
+<wire x1="14.917034375" y1="6.382634375" x2="15.8" y2="8.9" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
