@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -144,20 +144,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="8" y1="36.9741875" x2="8" y2="3.74459375" width="0" layer="20"/>
-<wire x1="8" y1="3.74459375" x2="9.644584375" y2="2.094328125" width="0" layer="20" curve="89.802427"/>
-<wire x1="9.644584375" y1="2.094328125" x2="20.7962875" y2="2.055875" width="0" layer="20"/>
-<wire x1="20.7962875" y1="2.055875" x2="22.5" y2="3.753725" width="0" layer="20" curve="90.211382"/>
-<wire x1="22.5" y1="3.753725" x2="22.5" y2="36.594515625" width="0" layer="20"/>
-<wire x1="22.5" y1="36.594515625" x2="20.744528125" y2="38.356053125" width="0" layer="20" curve="89.802405"/>
-<wire x1="20.744528125" y1="38.356053125" x2="9.425803125" y2="38.395084375" width="0" layer="20"/>
-<wire x1="9.425803125" y1="38.395084375" x2="8" y2="36.9741875" width="0" layer="20" curve="90.193413"/>
-<hole x="10" y="36.5" drill="3"/>
-<hole x="20.5" y="36.5" drill="3"/>
-<hole x="10" y="4" drill="3"/>
-<hole x="20.5" y="4" drill="3"/>
-<text x="21.54" y="28.05" size="1.778" layer="22" rot="MR270">care@pinwheel</text>
-<text x="10.56" y="10.35" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
+<wire x1="0.996665625" y1="0.096678125" x2="13.996665625" y2="0.05334375" width="0" layer="20"/>
+<wire x1="13.996665625" y1="0.05334375" x2="15" y2="1.0533375" width="0" layer="20" curve="90.173081"/>
+<wire x1="15" y1="1.0533375" x2="15" y2="39" width="0" layer="20"/>
+<wire x1="15" y1="39" x2="14" y2="40" width="0" layer="20" curve="90"/>
+<wire x1="14" y1="40" x2="1" y2="40" width="0" layer="20"/>
+<wire x1="1" y1="40" x2="0" y2="39" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="39" x2="0" y2="1.096671875" width="0" layer="20"/>
+<wire x1="0" y1="1.096671875" x2="0.996665625" y2="0.096678125" width="0" layer="20" curve="89.808954"/>
+<hole x="2" y="38" drill="3"/>
+<hole x="13" y="38" drill="3"/>
+<hole x="2" y="2" drill="3"/>
+<hole x="13" y="2" drill="3"/>
+<text x="13.54" y="26.05" size="1.778" layer="22" rot="MR270">care@pinwheel</text>
+<text x="2.56" y="8.35" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 </plain>
 <libraries>
 <library name="buzzer" urn="urn:adsk.eagle:library:113">
@@ -420,36 +420,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="F/TMB" package3d_urn="urn:adsk.eagle:package:5260/1" value="F/TMB" x="15.34" y="20.32" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.825" y="17.922" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="unknown" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="1" x="21.69" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="19.15" y="16.51" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="SG1" library="buzzer" library_urn="urn:adsk.eagle:library:113" package="F/TMB" package3d_urn="urn:adsk.eagle:package:5260/1" value="F/TMB" x="7.34" y="18.32" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="13.69" y="38.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="13.69" y="38.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="3.825" y="15.922" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="13.69" y="38.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="13.69" y="38.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="1" x="13.69" y="38.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="11.15" y="14.51" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.3" y="31.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.71" y="32.3" size="1.27" layer="21" rot="R90"/>
+<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7.5" y="33" smashed="yes" rot="R180">
+<attribute name="NAME" x="3.91" y="34.02" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="15.3" y="9.12" smashed="yes">
-<attribute name="NAME" x="11.49" y="5.54" size="1.27" layer="21" rot="R90"/>
+<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7.5" y="7.12" smashed="yes">
+<attribute name="NAME" x="3.69" y="3.54" size="1.27" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="SG1" pad="+"/>
 <contactref element="U$1" pad="PAD"/>
-<wire x1="15.34" y1="24.13" x2="15.3" y2="31.28" width="2.54" layer="16"/>
+<wire x1="7.34" y1="22.13" x2="7.5" y2="33" width="2.54" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="SG1" pad="-"/>
 <contactref element="U$2" pad="PAD"/>
-<wire x1="14.917034375" y1="6.382634375" x2="14.6304" y2="6.096" width="0.1524" layer="16"/>
-<wire x1="15.34" y1="16.51" x2="15.34" y2="9.36" width="2.54" layer="16"/>
-<wire x1="15.34" y1="9.36" x2="15.8" y2="8.9" width="2.54" layer="16"/>
-<wire x1="15.8" y1="8.9" x2="15.3" y2="9.12" width="0" layer="19" extent="16-16"/>
-<wire x1="14.917034375" y1="6.382634375" x2="15.8" y2="8.9" width="0" layer="19" extent="16-16"/>
+<wire x1="6.917034375" y1="4.382634375" x2="6.6304" y2="4.096" width="0.1524" layer="16"/>
+<wire x1="7.34" y1="14.51" x2="7.34" y2="7.36" width="2.54" layer="16"/>
+<wire x1="7.34" y1="7.36" x2="7.8" y2="6.9" width="2.54" layer="16"/>
+<wire x1="7.8" y1="6.9" x2="7.5" y2="7.12" width="0" layer="19" extent="16-16"/>
+<wire x1="6.917034375" y1="4.382634375" x2="7.8" y2="6.9" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

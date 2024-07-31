@@ -148,14 +148,14 @@
 <hole x="32" y="2" drill="3"/>
 <hole x="32" y="25" drill="3"/>
 <hole x="-1" y="25" drill="3"/>
-<wire x1="32" y1="0" x2="-1.292896875" y2="0" width="0.0762" layer="20"/>
-<wire x1="-1.292896875" y1="0" x2="-3" y2="1.707103125" width="0.0762" layer="20" curve="-90"/>
-<wire x1="-3" y1="1.707103125" x2="-3" y2="27" width="0.0762" layer="20"/>
-<wire x1="-3" y1="27" x2="-2.5" y2="27.5" width="0.0762" layer="20" curve="-90"/>
-<wire x1="-2.5" y1="27.5" x2="32.792896875" y2="27.5" width="0.0762" layer="20"/>
-<wire x1="32.792896875" y1="27.5" x2="34.5" y2="25.792896875" width="0.0762" layer="20" curve="-90"/>
-<wire x1="34.5" y1="25.792896875" x2="34.5" y2="2.5" width="0.0762" layer="20"/>
-<wire x1="34.5" y1="2.5" x2="32" y2="0" width="0.0762" layer="20" curve="-90"/>
+<wire x1="-2" y1="27.5" x2="33" y2="27.5" width="0.0762" layer="20"/>
+<wire x1="33" y1="27.5" x2="34" y2="26.5" width="0.0762" layer="20" curve="-90"/>
+<wire x1="34" y1="26.5" x2="34" y2="1" width="0.0762" layer="20"/>
+<wire x1="34" y1="1" x2="33" y2="0" width="0.0762" layer="20" curve="-90"/>
+<wire x1="33" y1="0" x2="-2" y2="0" width="0.0762" layer="20"/>
+<wire x1="-2" y1="0" x2="-3" y2="1" width="0.0762" layer="20" curve="-90"/>
+<wire x1="-3" y1="1" x2="-3" y2="26.5" width="0.0762" layer="20"/>
+<wire x1="-3" y1="26.5" x2="-2" y2="27.5" width="0.0762" layer="20" curve="-90"/>
 <text x="0" y="5.5" size="1.4224" layer="21" rot="R90">Pinwheel Robotics</text>
 <text x="24" y="14.5" size="1.4224" layer="22" rot="MR0">care@pinwheel.in</text>
 </plain>
