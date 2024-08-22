@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -158,6 +158,8 @@
 <hole x="12.5" y="2" drill="3"/>
 <text x="3.271" y="9.772" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 <text x="12.509" y="29.939" size="1.778" layer="22" rot="MR270">care@pinwheel.in</text>
+<dimension x1="-1" y1="42" x2="-1" y2="0" x3="-2.5" y3="21" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="42.5" x2="14.5" y2="42.5" x3="7.25" y3="44" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

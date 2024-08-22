@@ -158,6 +158,8 @@
 <wire x1="-3" y1="1" x2="-2" y2="0" width="0.1524" layer="20" curve="90"/>
 <text x="-0.095" y="5.45" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 <text x="18.588" y="24.074" size="1.778" layer="22" rot="MR270">care@pinwheel</text>
+<dimension x1="-5" y1="31" x2="-5" y2="0" x3="-6.5" y3="15.5" textsize="1.778" layer="1"/>
+<dimension x1="-3" y1="31.5" x2="19" y2="31.5" x3="8" y3="33.5" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="microbit">

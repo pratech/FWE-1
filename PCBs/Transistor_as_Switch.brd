@@ -158,6 +158,8 @@
 <hole x="-1" y="2" drill="3"/>
 <text x="4.191" y="18.288" size="1.4224" layer="21">PinwheelRobotics</text>
 <text x="5.461" y="11.811" size="1.27" layer="22" rot="MR180">care@pinwheel.in</text>
+<dimension x1="-3" y1="21.5" x2="27" y2="21.5" x3="12" y3="25" textsize="1.778" layer="1"/>
+<dimension x1="-5" y1="20" x2="-5" y2="0" x3="-11.5" y3="10" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="microbit">
