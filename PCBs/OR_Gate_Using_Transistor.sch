@@ -2280,8 +2280,8 @@ This is the board edge connector for the BBC micro:bit</description>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BIN" library="microbit" deviceset="MICROBIT_PAD" device=""/>
-<part name="AIN" library="microbit" deviceset="MICROBIT_PAD" device=""/>
+<part name="B" library="microbit" deviceset="MICROBIT_PAD" device=""/>
+<part name="A" library="microbit" deviceset="MICROBIT_PAD" device=""/>
 <part name="5V" library="microbit" deviceset="MICROBIT_PAD" device=""/>
 <part name="OUTPUT" library="microbit" deviceset="MICROBIT_PAD" device=""/>
 <part name="GND" library="microbit" deviceset="MICROBIT_PAD" device=""/>
@@ -2321,10 +2321,10 @@ This is the board edge connector for the BBC micro:bit</description>
 <instance part="GND1" gate="1" x="78.74" y="17.78" smashed="yes">
 <attribute name="VALUE" x="76.2" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="BIN" gate="G$1" x="53.34" y="45.72" smashed="yes" rot="R90">
+<instance part="B" gate="G$1" x="53.34" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.816" y="43.434" size="1.27" layer="94" rot="R90"/>
 </instance>
-<instance part="AIN" gate="G$1" x="0" y="58.42" smashed="yes">
+<instance part="A" gate="G$1" x="0" y="58.42" smashed="yes">
 <attribute name="NAME" x="-2.286" y="59.944" size="1.27" layer="94"/>
 </instance>
 <instance part="5V" gate="G$1" x="54.61" y="94.488" smashed="yes" rot="R270">
@@ -2360,7 +2360,7 @@ This is the board edge connector for the BBC micro:bit</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="BIN" gate="G$1" pin="P$1"/>
+<pinref part="B" gate="G$1" pin="P$1"/>
 <pinref part="R3" gate="R" pin="2"/>
 <wire x1="53.34" y1="50.8" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
@@ -2382,7 +2382,7 @@ This is the board edge connector for the BBC micro:bit</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="AIN" gate="G$1" pin="P$1"/>
+<pinref part="A" gate="G$1" pin="P$1"/>
 <pinref part="R1" gate="R" pin="1"/>
 <wire x1="5.08" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
 </segment>

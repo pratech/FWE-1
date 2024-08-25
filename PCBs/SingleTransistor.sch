@@ -307,7 +307,7 @@ This is the board edge connector for the BBC micro:bit</description>
 <wire x1="43.18" y1="62.23" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="T1" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>

@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
@@ -145,21 +145,19 @@
 <board>
 <plain>
 <hole x="2" y="2" drill="3"/>
-<hole x="35" y="2" drill="3"/>
-<hole x="35" y="25.5" drill="3"/>
+<hole x="40" y="2" drill="3"/>
+<hole x="40" y="25.5" drill="3"/>
 <hole x="2" y="25.5" drill="3"/>
 <text x="3" y="5.5" size="1.4224" layer="21" rot="R90">Pinwheel Robotics</text>
 <text x="34.5" y="6.5" size="1.4224" layer="22" rot="MR90">care@pinwheel.in</text>
-<wire x1="0" y1="26.5" x2="0" y2="1" width="0.1524" layer="20"/>
+<wire x1="0" y1="27" x2="0" y2="1" width="0.1524" layer="20"/>
 <wire x1="0" y1="1" x2="1" y2="0" width="0.1524" layer="20" curve="90"/>
-<wire x1="1" y1="0" x2="36" y2="0" width="0.1524" layer="20"/>
-<wire x1="36" y1="0" x2="37" y2="1" width="0.1524" layer="20" curve="90"/>
-<wire x1="37" y1="1" x2="37" y2="26.5" width="0.1524" layer="20"/>
-<wire x1="37" y1="26.5" x2="36" y2="27.5" width="0.1524" layer="20" curve="90"/>
-<wire x1="36" y1="27.5" x2="1" y2="27.5" width="0.1524" layer="20"/>
-<wire x1="1" y1="27.5" x2="0" y2="26.5" width="0.1524" layer="20" curve="90"/>
-<dimension x1="-0.5" y1="27.5" x2="-0.5" y2="0" x3="-2.5" y3="13.75" textsize="1.778" layer="1"/>
-<dimension x1="0" y1="28" x2="37" y2="28" x3="18.5" y3="29" textsize="1.778" layer="1"/>
+<wire x1="1" y1="0" x2="41" y2="0" width="0.1524" layer="20"/>
+<wire x1="41" y1="0" x2="42" y2="1" width="0.1524" layer="20" curve="90"/>
+<wire x1="42" y1="1" x2="42" y2="27" width="0.1524" layer="20"/>
+<wire x1="42" y1="27" x2="41" y2="28" width="0.1524" layer="20" curve="90"/>
+<wire x1="41" y1="28" x2="1" y2="28" width="0.1524" layer="20"/>
+<wire x1="1" y1="28" x2="0" y2="27" width="0.1524" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -299,7 +297,7 @@ design rules under a new name.</description>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
+<param name="msWidth" value="35mil"/>
 <param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -492,61 +490,61 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="RED1" pad="PAD"/>
 <contactref element="R1" pad="1"/>
-<wire x1="30" y1="7.5" x2="30" y2="12" width="0.3048" layer="1"/>
-<wire x1="30" y1="12" x2="29.908" y2="12.054" width="0.254" layer="1"/>
-<wire x1="30" y1="7.5" x2="29.775" y2="7.066" width="0.254" layer="1"/>
+<wire x1="30" y1="7.5" x2="30" y2="12" width="0.889" layer="1"/>
+<wire x1="30" y1="12" x2="29.908" y2="12.054" width="0.889" layer="1"/>
+<wire x1="30" y1="7.5" x2="29.775" y2="7.066" width="0.889" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="GREEN" pad="A"/>
 <contactref element="R2" pad="2"/>
-<wire x1="23.5" y1="22.5" x2="23.5" y2="20" width="0.3048" layer="1"/>
-<wire x1="23.5" y1="20" x2="23.283" y2="19.511" width="0.3048" layer="1"/>
-<wire x1="23.5" y1="22.5" x2="23.2" y2="22.791" width="0.254" layer="1"/>
+<wire x1="23.5" y1="22.5" x2="23.5" y2="20" width="0.889" layer="1"/>
+<wire x1="23.5" y1="20" x2="23.283" y2="19.511" width="0.889" layer="1"/>
+<wire x1="23.5" y1="22.5" x2="23.2" y2="22.791" width="0.889" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="YELLOW" pad="A"/>
 <contactref element="R3" pad="2"/>
-<wire x1="15.5" y1="22.5" x2="15.5" y2="20" width="0.3048" layer="1"/>
-<wire x1="15.5" y1="20" x2="15.256" y2="19.56" width="0.254" layer="1"/>
-<wire x1="15.5" y1="22.5" x2="15.258" y2="22.946" width="0.254" layer="1"/>
+<wire x1="15.5" y1="22.5" x2="15.5" y2="20" width="0.889" layer="1"/>
+<wire x1="15.5" y1="20" x2="15.256" y2="19.56" width="0.889" layer="1"/>
+<wire x1="15.5" y1="22.5" x2="15.258" y2="22.946" width="0.889" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="RED" pad="K"/>
 <contactref element="GREEN" pad="K"/>
 <contactref element="YELLOW" pad="K"/>
 <contactref element="GND" pad="PAD"/>
-<wire x1="30" y1="25.5" x2="23.5" y2="25.5" width="0.254" layer="1"/>
-<wire x1="23.5" y1="25.5" x2="23.2" y2="25.331" width="0.254" layer="1"/>
-<wire x1="30" y1="25.5" x2="30.259" y2="25.341" width="0.254" layer="1"/>
-<wire x1="23" y1="25.5" x2="15.5" y2="25.5" width="0.3048" layer="1"/>
-<wire x1="15.5" y1="25.5" x2="15.258" y2="25.486" width="0.254" layer="1"/>
-<wire x1="23" y1="25.5" x2="23.2" y2="25.331" width="0.254" layer="1"/>
-<wire x1="7.5" y1="17.5" x2="15" y2="25" width="0.3048" layer="16"/>
-<wire x1="7.5" y1="7.5" x2="7.5" y2="17.5" width="0.3048" layer="16"/>
-<wire x1="15" y1="25" x2="15.258" y2="25.486" width="0.254" layer="16"/>
-<wire x1="7.5" y1="7.5" x2="7.293" y2="7.023" width="0.254" layer="16"/>
+<wire x1="30" y1="25.5" x2="23.5" y2="25.5" width="0.889" layer="1"/>
+<wire x1="23.5" y1="25.5" x2="23.2" y2="25.331" width="0.889" layer="1"/>
+<wire x1="30" y1="25.5" x2="30.259" y2="25.341" width="0.889" layer="1"/>
+<wire x1="23" y1="25.5" x2="15.5" y2="25.5" width="0.889" layer="1"/>
+<wire x1="15.5" y1="25.5" x2="15.258" y2="25.486" width="0.889" layer="1"/>
+<wire x1="23" y1="25.5" x2="23.2" y2="25.331" width="0.889" layer="1"/>
+<wire x1="7.5" y1="17.5" x2="15" y2="25" width="0.889" layer="16"/>
+<wire x1="7.5" y1="7.5" x2="7.5" y2="17.5" width="0.889" layer="16"/>
+<wire x1="15" y1="25" x2="15.258" y2="25.486" width="0.889" layer="16"/>
+<wire x1="7.5" y1="7.5" x2="7.293" y2="7.023" width="0.889" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="YELLOW1" pad="PAD"/>
 <contactref element="R3" pad="1"/>
-<wire x1="15" y1="7.5" x2="15" y2="12" width="0.3048" layer="1"/>
-<wire x1="15" y1="12" x2="15.256" y2="12.06" width="0.254" layer="1"/>
-<wire x1="15" y1="7.5" x2="14.773" y2="7.089" width="0.3048" layer="1"/>
+<wire x1="15" y1="7.5" x2="15" y2="12" width="0.889" layer="1"/>
+<wire x1="15" y1="12" x2="15.256" y2="12.06" width="0.889" layer="1"/>
+<wire x1="15" y1="7.5" x2="14.773" y2="7.089" width="0.889" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="GREEN1" pad="PAD"/>
 <contactref element="R2" pad="1"/>
-<wire x1="22.5" y1="11.5" x2="23" y2="12" width="0.3048" layer="16"/>
-<wire x1="22.5" y1="7.5" x2="22.5" y2="11.5" width="0.3048" layer="16"/>
-<wire x1="23" y1="12" x2="23.283" y2="12.011" width="0.254" layer="16"/>
-<wire x1="22.5" y1="7.5" x2="22.309" y2="7.131" width="0.3048" layer="16"/>
+<wire x1="22.5" y1="11.5" x2="23" y2="12" width="0.889" layer="16"/>
+<wire x1="22.5" y1="7.5" x2="22.5" y2="11.5" width="0.889" layer="16"/>
+<wire x1="23" y1="12" x2="23.283" y2="12.011" width="0.889" layer="16"/>
+<wire x1="22.5" y1="7.5" x2="22.309" y2="7.131" width="0.889" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="RED" pad="A"/>
 <contactref element="R1" pad="2"/>
-<wire x1="30" y1="22.5" x2="30" y2="20" width="0.3048" layer="1"/>
-<wire x1="30" y1="20" x2="29.908" y2="19.554" width="0.254" layer="1"/>
-<wire x1="30" y1="22.5" x2="30.259" y2="22.801" width="0.254" layer="1"/>
+<wire x1="30" y1="22.5" x2="30" y2="20" width="0.889" layer="1"/>
+<wire x1="30" y1="20" x2="29.908" y2="19.554" width="0.889" layer="1"/>
+<wire x1="30" y1="22.5" x2="30.259" y2="22.801" width="0.889" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

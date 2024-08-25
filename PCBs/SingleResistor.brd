@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -144,22 +144,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="1" y1="0" x2="13.5" y2="0" width="0" layer="20"/>
-<wire x1="13.5" y1="0" x2="14.5" y2="1" width="0" layer="20" curve="90"/>
-<wire x1="14.5" y1="1" x2="14.5" y2="41" width="0" layer="20"/>
-<wire x1="14.5" y1="41" x2="13.5" y2="42" width="0" layer="20" curve="90"/>
-<wire x1="13.5" y1="42" x2="1" y2="42" width="0" layer="20"/>
+<wire x1="13" y1="42" x2="1" y2="42" width="0" layer="20"/>
 <wire x1="1" y1="42" x2="0" y2="41" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="41" x2="0" y2="1" width="0" layer="20"/>
 <wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
-<hole x="2" y="40" drill="3"/>
-<hole x="12.5" y="40" drill="3"/>
-<hole x="2" y="2" drill="3"/>
-<hole x="12.5" y="2" drill="3"/>
+<wire x1="1" y1="0" x2="13" y2="0" width="0" layer="20"/>
+<wire x1="13" y1="0" x2="14" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="14" y1="1" x2="14" y2="41" width="0" layer="20"/>
+<wire x1="14" y1="41" x2="13" y2="42" width="0" layer="20" curve="90"/>
+<hole x="1.9" y="40" drill="3"/>
+<hole x="12.1" y="40" drill="3"/>
+<hole x="1.9" y="2" drill="3"/>
+<hole x="12.1" y="2" drill="3"/>
 <text x="3.271" y="9.772" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 <text x="12.509" y="29.939" size="1.778" layer="22" rot="MR270">care@pinwheel.in</text>
-<dimension x1="-1" y1="42" x2="-1" y2="0" x3="-2.5" y3="21" textsize="1.778" layer="1"/>
-<dimension x1="0" y1="42.5" x2="14.5" y2="42.5" x3="7.25" y3="44" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1475,27 +1473,27 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="24.838" y="41.913" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.693" y="17.148" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7.273" y="35" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.146" y="41.223" size="1.27" layer="21" rot="R270"/>
+<element name="U$2" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7" y="35" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.873" y="41.223" size="1.27" layer="21" rot="R270"/>
 </element>
-<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7.254" y="6.988" smashed="yes">
-<attribute name="NAME" x="8.397" y="0.892" size="1.27" layer="21" rot="R90"/>
+<element name="U$1" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7" y="6.988" smashed="yes">
+<attribute name="NAME" x="8.143" y="0.892" size="1.27" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="R1" pad="1"/>
 <contactref element="U$1" pad="PAD"/>
-<wire x1="7.1628" y1="7.0104" x2="7.1628" y2="15.24" width="1.27" layer="16"/>
+<wire x1="7.1628" y1="7.0104" x2="7.1628" y2="15.24" width="1.016" layer="16"/>
 <wire x1="7.1628" y1="15.24" x2="7.058" y2="15.243" width="0.1524" layer="16"/>
-<wire x1="7.1628" y1="7.0104" x2="7.254" y2="6.988" width="0.1524" layer="16"/>
+<wire x1="7.1628" y1="7.0104" x2="7" y2="6.988" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$2" pad="PAD"/>
 <contactref element="R1" pad="2"/>
-<wire x1="7.1628" y1="34.8996" x2="7.1628" y2="28.0416" width="1.27" layer="16"/>
+<wire x1="7.1628" y1="34.8996" x2="7.1628" y2="28.0416" width="1.016" layer="16"/>
 <wire x1="7.1628" y1="28.0416" x2="7.058" y2="27.943" width="0.1524" layer="16"/>
-<wire x1="7.1628" y1="34.8996" x2="7.273" y2="35" width="0.1524" layer="16"/>
+<wire x1="7.1628" y1="34.8996" x2="7" y2="35" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
