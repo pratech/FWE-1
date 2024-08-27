@@ -154,10 +154,10 @@
 <wire x1="1" y1="42" x2="0" y2="41" width="0" layer="20" curve="90"/>
 <text x="4.295" y="12.684" size="1.6764" layer="21" rot="R90">Pinwheel Robotics </text>
 <text x="10.564" y="17.581" size="1.27" layer="21" rot="R90">Capacitor</text>
-<hole x="1.9" y="40" drill="3"/>
-<hole x="12.1" y="40" drill="3"/>
-<hole x="1.9" y="2" drill="3"/>
-<hole x="12.1" y="2" drill="3"/>
+<hole x="2" y="40" drill="3"/>
+<hole x="12" y="40" drill="3"/>
+<hole x="2" y="2" drill="3"/>
+<hole x="12" y="2" drill="3"/>
 <text x="13.103" y="31.54" size="1.778" layer="22" rot="MR270">care@pinwheel.in</text>
 <dimension x1="-3" y1="42" x2="-3" y2="0" x3="-13.5" y3="21" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="42.5" x2="15" y2="42.5" x3="7.5" y3="48" textsize="1.778" layer="1"/>

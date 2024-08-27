@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -152,10 +152,10 @@
 <wire x1="13" y1="0" x2="14" y2="1" width="0" layer="20" curve="90"/>
 <wire x1="14" y1="1" x2="14" y2="41" width="0" layer="20"/>
 <wire x1="14" y1="41" x2="13" y2="42" width="0" layer="20" curve="90"/>
-<hole x="1.9" y="40" drill="3"/>
-<hole x="12.1" y="40" drill="3"/>
-<hole x="1.9" y="2" drill="3"/>
-<hole x="12.1" y="2" drill="3"/>
+<hole x="2" y="40" drill="3"/>
+<hole x="12" y="40" drill="3"/>
+<hole x="2" y="2" drill="3"/>
+<hole x="12" y="2" drill="3"/>
 <text x="3.271" y="9.772" size="1.778" layer="21" rot="R90">PinwheelRobotics</text>
 <text x="12.509" y="29.939" size="1.778" layer="22" rot="MR270">care@pinwheel.in</text>
 </plain>

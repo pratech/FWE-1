@@ -1521,8 +1521,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="12V" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="22.291428125" y="7.055215625" smashed="yes">
-<attribute name="NAME" x="22.037428125" y="10.611215625" size="0.6096" layer="21" font="vector"/>
+<element name="12V" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="25" y="7" smashed="yes">
+<attribute name="NAME" x="24.746" y="10.556" size="0.6096" layer="21" font="vector"/>
 </element>
 <element name="C1" library="we-rcl" package="C_E2-4" value="10uF" x="28.3052875" y="13.960615625" smashed="yes">
 <attribute name="NAME" x="25.68465625" y="14.31275" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
@@ -1536,14 +1536,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.263234375" y="14.35203125" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="24.6062875" y="14.341615625" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
-<element name="GND" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="29.72461875" y="7.064284375" smashed="yes">
-<attribute name="NAME" x="28.70861875" y="10.747284375" size="0.6096" layer="21" font="vector"/>
+<element name="GND" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="33.5" y="7" smashed="yes">
+<attribute name="NAME" x="32.484" y="10.683" size="0.6096" layer="21" font="vector"/>
 </element>
-<element name="INPUT" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="7.23673125" y="7.08611875" smashed="yes">
-<attribute name="NAME" x="5.96673125" y="10.51511875" size="0.6096" layer="21" font="vector"/>
+<element name="INPUT" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="8" y="7" smashed="yes">
+<attribute name="NAME" x="6.73" y="10.429" size="0.6096" layer="21" font="vector"/>
 </element>
-<element name="OUTPUT" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="14.741034375" y="7.044221875" smashed="yes">
-<attribute name="NAME" x="13.217034375" y="10.727221875" size="0.6096" layer="21" font="vector"/>
+<element name="OUTPUT" library="microbit" package="MICROBIT_PAD" value="MICROBIT_PAD" x="16.5" y="7" smashed="yes">
+<attribute name="NAME" x="14.976" y="10.683" size="0.6096" layer="21" font="vector"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="100k" x="26.209478125" y="18.6192" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.706321875" y="18.78415" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -1666,14 +1666,14 @@ design rules under a new name.</description>
 <wire x1="16.0544875" y1="8.245615625" x2="16.0544875" y2="17.186415625" width="0.254" layer="16"/>
 <wire x1="14.85309375" y1="7.044221875" x2="16.0544875" y2="8.245615625" width="0.254" layer="16"/>
 <wire x1="28.2464875" y1="12.919215625" x2="28.3052875" y2="12.944615625" width="0.254" layer="16"/>
-<wire x1="14.85309375" y1="7.044221875" x2="14.741034375" y2="7.044221875" width="0.254" layer="16"/>
+<wire x1="14.85309375" y1="7.044221875" x2="16.5" y2="7" width="0.254" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="INPUT" pad="PAD"/>
 <contactref element="C2" pad="+"/>
 <wire x1="13.4128875" y1="13.325615625" x2="14.5812875" y2="13.325615625" width="0.254" layer="16"/>
 <wire x1="8.016821875" y1="7.92955" x2="13.4128875" y2="13.325615625" width="0.254" layer="16"/>
-<wire x1="8.016821875" y1="7.92955" x2="7.23673125" y2="7.08611875" width="0.254" layer="16"/>
+<wire x1="8.016821875" y1="7.92955" x2="8" y2="7" width="0.254" layer="16"/>
 </signal>
 <signal name="12V">
 <contactref element="12V" pad="PAD"/>
@@ -1685,7 +1685,7 @@ design rules under a new name.</description>
 <wire x1="19.9152875" y1="9.668015625" x2="19.9152875" y2="18.608815625" width="0.254" layer="16"/>
 <wire x1="22.204034375" y1="7.37926875" x2="19.9152875" y2="9.668015625" width="0.254" layer="16"/>
 <wire x1="19.9152875" y1="18.608815625" x2="19.859478125" y2="18.6192" width="0.254" layer="16"/>
-<wire x1="22.204034375" y1="7.37926875" x2="22.291428125" y2="7.055215625" width="0.254" layer="16"/>
+<wire x1="22.204034375" y1="7.37926875" x2="25" y2="7" width="0.254" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="R4" pad="1"/>
@@ -1700,7 +1700,7 @@ design rules under a new name.</description>
 <wire x1="28.6528875" y1="13.935215625" x2="27.8400875" y2="13.935215625" width="0.254" layer="16"/>
 <wire x1="29.8720875" y1="12.716015625" x2="28.6528875" y2="13.935215625" width="0.254" layer="16"/>
 <wire x1="29.8720875" y1="7.410121875" x2="29.8720875" y2="12.716015625" width="0.254" layer="16"/>
-<wire x1="29.8720875" y1="7.410121875" x2="29.72461875" y2="7.064284375" width="0.254" layer="16"/>
+<wire x1="29.8720875" y1="7.410121875" x2="33.5" y2="7" width="0.254" layer="16"/>
 <wire x1="22.7600875" y1="21.860015625" x2="19.9152875" y2="21.860015625" width="0.254" layer="16"/>
 <wire x1="29.2624875" y1="15.357615625" x2="22.7600875" y2="21.860015625" width="0.254" layer="16"/>
 <wire x1="29.2624875" y1="14.544815625" x2="29.2624875" y2="15.357615625" width="0.254" layer="16"/>
